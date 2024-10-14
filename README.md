@@ -1,6 +1,10 @@
 # Dream Doodler
 Drawing app built for Android devices.
 
+## Video Showcase of the app:
+
+https://github.com/user-attachments/assets/15afa2c6-7141-435f-b0d5-02cf2c4179a4
+
 ## List of features
 * Modifiable pen (color/size/shape)
 * Invert the colors of the image
@@ -18,7 +22,3 @@ Drawing app built for Android devices.
 * Jetpack Compose: UI elements are built using Jetpack Compose, offering modern and declarative UI development for Android.
 * C++ Image Processing: Image processing operations such as inverting colors, changing brightness, and adding noise are handled using C++ for performance efficiency.
 * Firebase Integration: Firebase is used for sharing images with other users, requiring login and user authentication to ensure secure sharing.
-
-## Video Showcase of the app:
-
-https://github.com/user-attachments/assets/15afa2c6-7141-435f-b0d5-02cf2c4179a4
