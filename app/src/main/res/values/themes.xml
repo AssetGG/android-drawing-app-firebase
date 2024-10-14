@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DreamDoodler" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.DreamDoodler" parent="Base.Theme.DreamDoodler" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/dream_doodler_logo_s</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.DreamDoodler</item>
+    </style>
+</resources>

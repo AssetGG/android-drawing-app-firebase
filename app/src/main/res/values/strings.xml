@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dream Doodler</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="size_slider_scribble">Pen Size: </string>
+    <string name="size_slider_circle">Stamp Size: </string>
+    <string name="size_slider_square">Stamp Size: </string>
+    <string name="button_circle_mode">Current Mode: Circular Stamp</string>
+    <string name="button_scribble_mode">Current Mode: Scribble</string>
+    <string name="button_square_mode">Current Mode: Square Stamp</string>
+
+    <string name="color_picker_button_label">Pick a Color</string>
+</resources>

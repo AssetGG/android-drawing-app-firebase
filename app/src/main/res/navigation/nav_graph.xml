@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/drawingPageFragment" >
+
+    <fragment
+        android:id="@+id/drawingPageFragment"
+        android:name="com.example.dreamdoodler.DrawingPageFragment"
+        android:label="fragment_drawing_page"
+        tools:layout="@layout/fragment_drawing_page" >
+        <action
+            android:id="@+id/launchColorPickerDialog"
+            app:destination="@id/colorPickerDialog" />
+        <action
+            android:id="@+id/toSelectDrawing"
+            app:destination="@id/drawingSelectFragment" />
+        <action
+            android:id="@+id/openSaveFragment"
+            app:destination="@id/saveDrawingFragment" />
+        <action
+            android:id="@+id/toSettings"
+            app:destination="@id/settingsAccountFragment" />
+        <action
+            android:id="@+id/openAdjustments"
+            app:destination="@id/adjustmentsFragment" />
+        <action
+            android:id="@+id/openGalleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/colorPickerDialog"
+        android:name="com.example.dreamdoodler.ColorPickerDialogFragment">
+    </dialog>
+    <fragment
+        android:id="@+id/drawingSelectFragment"
+        android:name="com.example.dreamdoodler.DrawingSelectFragment"
+        android:label="fragment_drawing_select"
+        tools:layout="@layout/fragment_drawing_select" />
+    <fragment
+        android:id="@+id/saveDrawingFragment"
+        android:name="com.example.dreamdoodler.SaveDrawingFragment"
+        android:label="fragment_save_drawing"
+        tools:layout="@layout/fragment_save_drawing" />
+    <fragment
+        android:id="@+id/settingsAccountFragment"
+        android:name="com.example.dreamdoodler.SettingsAccountFragment"
+        android:label="fragment_settings_account"
+        tools:layout="@layout/fragment_settings_account" >
+        <action
+            android:id="@+id/toLoginRegister"
+            app:destination="@id/loginRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginRegisterFragment"
+        android:name="com.example.dreamdoodler.LoginRegisterFragment"
+        android:label="fragment_login_register"
+        tools:layout="@layout/fragment_login_register" />
+    <fragment
+        android:id="@+id/adjustmentsFragment"
+        android:name="com.example.dreamdoodler.AdjustmentsFragment"
+        android:label="fragment_adjustments"
+        tools:layout="@layout/fragment_adjustments" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.dreamdoodler.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/returnToDrawingPage"
+            app:destination="@id/drawingPageFragment" />
+    </fragment>
+</navigation>
