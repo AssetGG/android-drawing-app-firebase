@@ -1,5 +1,5 @@
 # Dream Doodler
-Drawing app built for Android devices using Kotlin.
+Drawing app built for Android devices, built using Kotlin.
 
 ## Video Showcase of the app:
 
